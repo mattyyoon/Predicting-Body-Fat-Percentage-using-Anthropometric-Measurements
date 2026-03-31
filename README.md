@@ -1,0 +1,48 @@
+Title: "Predicting Body Fat Percentage using Anthropometric Measurements
+Name: Matthew Yoon
+
+Abstract:
+According to the given data set from the SPSS On-Line Training Workshop, the data is divided into four categories: "amount of body fat", "triceps skinfold thickness", "thigh circumference", and "midarm circumference". 
+According to my findings, it is apparent that among these Anthropometric measurements only "triceps skinfold thickness" and "thigh circumference" are the significant predictors of body fat percentage. 
+The type of linear model used to come to these results were multiple linear regressions. The final model equation determined from this analysis was Bodyfat = -32.32719 + 0.83303 * Triceps + 0.52401 * Thigh + 0.02638 * Midarm. 
+The model's goodness of fit or the adjust r-squared is 0.9985 which indicates a very strong fit due to the high percentage in variance in the dependent variables.  
+
+Introduction:
+Understanding one's body fat is crucial for optimizing one's health. Body fat percentage can in fact impact overall well-being and disease risk. 
+Although fat serves vital functions like insulation, excess or deficient levels can lead to various health risks. 
+For example, high body fat percentages are linked to increased risks of Type 2 diabetes, high blood pressure, and cardiovascular diseases. Especially concerning visceral fat which is the fat stored around organs, 
+it can lead to serious health risks like heart disease and stroke. 
+Extremely low body fat percentages can potentially lead to osteoporosis and increased risk of injury. 
+Rather than relying solely body weight or BMI, body fat percentage can provide a more accurate picture of one's health. 
+There are numerous ways to measure one's body fat including skinfold thickness and underwater weighing however, anthropometric measurements are seen as cost-effective alternatives and include numerous advantages 
+including its non-invasive and easily obtainable nature, helpful for tracking change over time, and can be used to assess the overall adiposity. 
+Certain limitations however include that it may not be as accurate as methods such as a Dual-Energy X-ray absorptiometry and anthropometric prediction equations developed from specific sample populations may not be 
+reliable for others. 
+Potential research questions that this analysis aims to answer include "Can a linear model effectively predict body fat percentage using the mentioned category predictors?" and "Which of the anthropometric 
+measurements are the most significant predictors of body fat percentage?"
+
+Results:
+According to these results, the residuals are the differences between the observed values and the values predicted by the model. 
+In an ideal world, these values should be balanced around zero which means the model fits the data well without a far estimation. 
+The median being -0.00878 indicates that the residuals are centered around zero. The minimum and maximum residuals are relatively close in absolute value and the first and third quartiles have similar magnitudes meaning 
+there is a reasonable distribution around zero. 
+According to the coefficients, the intercept -32.32719 represents the model's baseline prediction when the predictors are zero. 
+For triceps, for every one-unit increase in the triceps variable, the dependent variable is estimated to increase by roughly 0.833 and this notion applies to the other factors. 
+Because the Midarm has a p-value of 0.17 which is greater than the typical 0.05 threshold, this coefficient is not statistically significant at the 0.05 level meaning it cant be concluded that it has a nonzero effect on 
+the dependent variable. 
+Based on the model fit statistics, the multiple R-squared value of 0.9988 indicates that about 99.88% of the variance in the dependent variable can be elaborated by the independent variables which suggests a strong 
+linear relationship. 
+The adjusted R-squared value of 0.9985 is very close to the R-squared value which indicates that the added predictors are affecting the model significantly. 
+The F-statistic of 4263 on 3 and 16 DF and p-value of <2.2e-16 shows that with a large F-statistic and very small p-value indicates that the model is statistically significant meaning at least one of the independent 
+variables is related to the dependent variable. 
+This suggests that the regression model is a better fit of the data as opposed to a model with no independent variables. 
+
+Conclusion:
+The Key Findings of this research include the Model Fit which appears to be a good fit for the data. 
+The high R-squared value of 0.9988 shows that the independent variables explain 99.88 percent of variability in body fat and the adjusted R-squared of 0.9985 is also high and close to the R-squared value which means 
+that the model included variables that contributed meaningfully to bodyfat variability. 
+The F-statistic of 4263 with a low p-value justifies the significance of the model and its independent variables. 
+The variable "Triceps" and "Thighs" are statistically significant predictors of bodyfat indicated by the low p-values. 
+Given the positive coefficients, as triceps and thigh measurements increase, bodyfat tends to increase. Thus Midarm measurements are nit reliably associated with bodyfat changes. 
+Potential areas for research include researching why the Midarm variable was not significant which could involve learning more about potential multicollinearity variables and further data collection by considering a 
+larger and more diverse dataset to ensure the findings can be applied to a broader population. 
